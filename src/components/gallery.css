@@ -1,0 +1,34 @@
+.gallery-container {
+  padding: 1rem;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+}
+
+.gallery-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery-card:hover {
+  transform: scale(1.03);
+}
+
+.gallery-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.caption {
+  padding: 0.5rem;
+  background: #ffffffdd;
+  text-align: center;
+  font-size: 0.9rem;
+}

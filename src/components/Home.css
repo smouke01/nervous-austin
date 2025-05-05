@@ -1,0 +1,79 @@
+.home-hero {
+  position: relative;
+  background: url("/bg-art.jpg") center/cover no-repeat;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.home-content {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+}
+
+.home-logo {
+  width: 120px;
+  margin-bottom: 1rem;
+}
+.logo-image {
+  width: 150px;
+  height: auto;
+}
+.logo-image {
+  max-width: 100%;
+  width: 200px;
+  height: auto;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  color: #ddd;
+}
+
+.cta-button {
+  padding: 1rem 2rem;
+  background: #8a2be2;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-bottom: 3rem;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background: #6a1cb0;
+}
+
+.features {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+  font-size: 1rem;
+}

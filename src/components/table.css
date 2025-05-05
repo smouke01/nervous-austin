@@ -1,0 +1,15 @@
+.stats-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0;
+}
+.stats-table th,
+.stats-table td {
+  border: 1px solid var(--accent-color);
+  padding: 8px;
+  text-align: left;
+}
+.stats-table th {
+  background-color: var(--accent-color);
+  color: #fff;
+}

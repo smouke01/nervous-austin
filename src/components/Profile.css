@@ -1,0 +1,62 @@
+/* src/components/Profile.css */
+
+.profile-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.profile-details {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-details p {
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+.profile-actions {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: #4caf50;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.edit-btn:hover {
+  background-color: #45a049;
+}
+
+.logout-btn {
+  background-color: #f44336;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.logout-btn:hover {
+  background-color: #e53935;
+}

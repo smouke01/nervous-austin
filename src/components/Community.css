@@ -1,0 +1,50 @@
+.works-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+.works-list li {
+  list-style: none;
+  text-align: center;
+}
+
+.works-list img {
+  max-width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background: white;
+  padding: 2rem;
+  margin: 10% auto;
+  width: 300px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.modal-content input {
+  display: block;
+  margin: 1rem auto;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.modal-content button {
+  margin: 0.5rem;
+}
+
+.close-btn {
+  background: #ccc;
+}

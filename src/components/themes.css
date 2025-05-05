@@ -1,0 +1,20 @@
+/* themes.css */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #222222;
+  --accent-color: #0066cc;
+}
+[data-theme="dark"] {
+  --bg-color: #222222;
+  --text-color: #eeeeee;
+  --accent-color: #ff8800;
+}
+/* Применяем переменные */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+a,
+.btn {
+  color: var(--accent-color);
+}
